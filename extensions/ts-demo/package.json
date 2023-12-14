@@ -1,9 +1,9 @@
 {
   "name": "ts-demo",
-  "description": "Hello ts-demo",
-  "author": "",
   "version": "1.0.0",
+  "description": "Hello ts-demo",
   "homepage": "",
+  "author": "",
   "main": "dist/index.js",
   "files": [
     "dist"

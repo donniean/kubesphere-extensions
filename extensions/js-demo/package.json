@@ -1,9 +1,9 @@
 {
   "name": "js-demo",
-  "description": "Hello js-demo",
-  "author": "",
   "version": "1.0.0",
+  "description": "Hello js-demo",
   "homepage": "",
+  "author": "",
   "main": "dist/index.js",
   "files": [
     "dist"
