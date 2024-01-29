@@ -1,11 +1,5 @@
 import React from 'react';
-import styled from 'styled-components';
-
-const Wrapper = styled.h3`
-  margin: 8rem auto;
-  text-align: center;
-`;
 
 export default function App() {
-  return <Wrapper>Hello ts-demo</Wrapper>;
+  return <h1>Hello ts-demo</h1>;
 }
