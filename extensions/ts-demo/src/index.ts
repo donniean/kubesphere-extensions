@@ -2,7 +2,7 @@ import routes from './routes';
 import locales from './locales';
 
 const menu = {
-  parent: 'global',
+  parent: 'topbar',
   name: 'ts-demo',
   title: 'TypeScript Demo',
   icon: 'cluster',
