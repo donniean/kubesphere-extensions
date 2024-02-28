@@ -1437,17 +1437,13 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@ks-console/appstore@^0.0.4":
+"@ks-console/appstore@^0.0.4", "@ks-console/appstore@file:.yalc/@ks-console/appstore":
   version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-0.0.4.tgz#86a7491339d30e3329c41964361feee45b021364"
-  integrity sha512-hikDLm1ZS/tuXfrO8OFbMKtYUFrQMr1s02YesLixPaQK6mRINL4ffFh6zYYTUrOFZQFUHmUGBYA+s+lyO2S5Bg==
   dependencies:
     nanoid "^3.0.0"
 
-"@ks-console/bootstrap@^0.0.5":
+"@ks-console/bootstrap@file:.yalc/@ks-console/bootstrap":
   version "0.0.5"
-  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-0.0.5.tgz#b3fec39637c8dc70089be0c2ac7b6d14d024fe94"
-  integrity sha512-oQIC5ZN7sNesdkONdxYIyKf90fZKfEjrI0dPK3+HywzB3ehosYSxEs99Ip+aXwzBMpq7liUJdo5KsGKRL4/k4A==
   dependencies:
     "@ks-console/appstore" "^0.0.4"
     "@ks-console/console" "^0.0.4"
@@ -1460,6 +1456,19 @@
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-0.0.4.tgz#d65bc88dff6cbd2edc26e58eae18d9ecfc8ec236"
   integrity sha512-3o8j30E1xT3T/Dx4hCMAbAtIQIzII6uL04xgOsGLacU+HJiUqm1QJX6WGdDnj8tPI4h05zUsaqDUCmtOGlyeKQ==
+  dependencies:
+    async-validator "4.2.5"
+    file-saver "^2.0.5"
+    for-editor "^0.3.5"
+    netmask "^2.0.1"
+    react-input-autosize "^3.0.0"
+    react-markdown "^7.1.1"
+    react-table "^7.7.0"
+    react-textarea-autosize "^8.3.2"
+    wujie-react "^1.0.6"
+
+"@ks-console/console@file:.yalc/@ks-console/console":
+  version "0.0.4"
   dependencies:
     async-validator "4.2.5"
     file-saver "^2.0.5"
@@ -1488,6 +1497,24 @@
     react-syntax-highlighter "^15.5.0"
     react-use "^17.4.2"
     remark-gfm "^3.0.1"
+    wujie-react "^1.0.6"
+
+"@ks-console/core@file:.yalc/@ks-console/core":
+  version "0.0.5"
+  dependencies:
+    "@jridgewell/resolve-uri" "^3.1.0"
+    clean-deep "^3.4.0"
+    embla-carousel-react "^8.0.0-rc11"
+    file-saver "^2.0.5"
+    i18next "^21.4.0"
+    lodash "^4.17.20"
+    minimatch "^9.0.3"
+    react-draggable "^4.4.5"
+    react-markdown "^7.1.1"
+    react-syntax-highlighter "^15.5.0"
+    react-use "^17.4.2"
+    remark-gfm "^3.0.1"
+    systemjs "^6.14.3"
     wujie-react "^1.0.6"
 
 "@ks-console/locales@^0.0.1":
@@ -1522,10 +1549,8 @@
     path-to-regexp "^2.2.1"
     stream-array "^1.1.2"
 
-"@ks-console/shared@0.0.4":
+"@ks-console/shared@file:.yalc/@ks-console/shared":
   version "0.0.4"
-  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-0.0.4.tgz#dd02bda09f66ea1f03c68f704f4a96539e2d3547"
-  integrity sha512-31v0eaZDmpTDUyYNo36xiptdd2i3zhqA2C1BMvQa4g+FTHwRfKq1LjcTbYSLOEGKOqhHTENR1EPtH+8Ub/I0lQ==
   dependencies:
     async-validator "4.2.5"
     axios "^0.24.0"
@@ -11143,6 +11168,11 @@ systemjs-webpack-interop@^2.3.7:
   version "2.3.7"
   resolved "https://registry.yarnpkg.com/systemjs-webpack-interop/-/systemjs-webpack-interop-2.3.7.tgz#b8ed2a81c371bab3160ac4801776ef61cf8c7959"
   integrity sha512-9wmhkleKWVjcGfHpc1/YvfADnvzpYMdr2/AM2e7FpMczPYEdluwM3AMXxHGzPUNbWfnSaerrmzqP4nDsTDvBxA==
+
+systemjs@^6.14.3:
+  version "6.14.3"
+  resolved "https://registry.yarnpkg.com/systemjs/-/systemjs-6.14.3.tgz#c1d6e4ff5f9ff7106e5bb3d451360b1a066bde8a"
+  integrity sha512-hQv45irdhXudAOr8r6SVSpJSGtogdGZUbJBRKCE5nsIS7tsxxvnIHqT4IOPWj+P+HcSzeWzHlGCGpmhPDIKe+w==
 
 table@^6.0.9:
   version "6.8.1"
