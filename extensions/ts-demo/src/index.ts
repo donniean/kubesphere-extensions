@@ -17,4 +17,6 @@ const extensionConfig = {
   locales,
 };
 
-export default extensionConfig;
+globals.context.registerExtension(extensionConfig);
+
+// export default extensionConfig;
