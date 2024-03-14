@@ -4,7 +4,7 @@ import locales from './locales';
 const menu = {
   parent: 'topbar',
   name: 'ts-example',
-  title: 'TypeScript Demo',
+  title: 'TypeScript Example',
   icon: 'cluster',
   order: 0,
   desc: 'Hello ts-example',

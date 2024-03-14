@@ -4,7 +4,7 @@ import locales from './locales';
 const menu = {
   parent: 'topbar',
   name: 'js-example',
-  title: 'JavaScript Demo',
+  title: 'JavaScript Example',
   icon: 'cluster',
   order: 0,
   desc: 'Hello js-example',
