@@ -24,6 +24,6 @@ export default () => {
   return new Promise(resolve => {
     window.setTimeout(() => {
       resolve(extensionConfig);
-    }, 2000);
+    }, 200);
   });
 };
