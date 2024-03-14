@@ -15,9 +15,15 @@ const extensionConfig = {
   routes,
   menus: [menu],
   locales,
-  isCheckLicense: false,
+  isCheckLicense: true,
 };
 
 // globals.context.registerExtension(extensionConfig);
 
-export default extensionConfig;
+export default function fetchExtensionConfig() {
+  return new Promise(resolve => {
+    window.setTimeout(() => {
+      resolve(extensionConfig);
+    }, 2000);
+  });
+}
