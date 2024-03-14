@@ -1,12 +1,10 @@
 {
-  "name": "js-demo",
+  "name": "ts-example",
   "version": "1.0.0",
-  "description": "Hello js-demo",
+  "description": "Hello ts-example",
   "homepage": "",
   "author": "",
   "main": "dist/index.js",
-  "files": [
-    "dist"
-  ],
+  "files": ["dist"],
   "dependencies": {}
 }

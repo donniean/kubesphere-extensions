@@ -3,11 +3,11 @@ import locales from './locales';
 
 const menu = {
   parent: 'topbar',
-  name: 'ts-demo',
-  title: 'TypeScript Demo',
+  name: 'js-example',
+  title: 'JavaScript Demo',
   icon: 'cluster',
   order: 0,
-  desc: 'Hello ts-demo',
+  desc: 'Hello js-example',
   skipAuth: true,
 };
 
@@ -17,6 +17,6 @@ const extensionConfig = {
   locales,
 };
 
-globals.context.registerExtension(extensionConfig);
+// globals.context.registerExtension(extensionConfig);
 
-// export default extensionConfig;
+export default extensionConfig;

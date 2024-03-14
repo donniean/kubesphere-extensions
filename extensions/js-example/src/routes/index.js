@@ -3,7 +3,7 @@ import App from '../App';
 
 export default [
   {
-    path: '/js-demo',
+    path: '/js-example',
     element: <App />,
   },
 ];
