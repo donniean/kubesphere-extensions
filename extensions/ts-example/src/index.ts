@@ -15,6 +15,7 @@ const extensionConfig = {
   routes,
   menus: [menu],
   locales,
+  isCheckLicense: false,
 };
 
 // globals.context.registerExtension(extensionConfig);
