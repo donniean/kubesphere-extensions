@@ -17,4 +17,8 @@ const extensionConfig = {
   locales,
 };
 
-globals.context.registerExtension(extensionConfig);
+if (process.env.NODE_ENV === 'development') {
+  globals.context.registerExtension(extensionConfig);
+}
+
+export default extensionConfig;
