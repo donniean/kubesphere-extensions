@@ -1662,7 +1662,7 @@
     path-to-regexp "^2.2.1"
     stream-array "^1.1.2"
 
-"@ks-console/shared@0.0.4":
+"@ks-console/shared@^0.0.4":
   version "0.0.4"
   resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-0.0.4.tgz#dd02bda09f66ea1f03c68f704f4a96539e2d3547"
   integrity sha512-31v0eaZDmpTDUyYNo36xiptdd2i3zhqA2C1BMvQa4g+FTHwRfKq1LjcTbYSLOEGKOqhHTENR1EPtH+8Ub/I0lQ==
