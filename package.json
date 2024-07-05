@@ -125,6 +125,7 @@
     "http-proxy-middleware": "^1.0.3",
     "inquirer": "^8.1.0",
     "ip": "^1.1.5",
+    "koa-connect": "^2.1.0",
     "lodash": "^4.17.20",
     "mini-css-extract-plugin": "^2.4.2",
     "mitt": "^3.0.0",
