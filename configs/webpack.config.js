@@ -1,5 +1,5 @@
 module.exports = {
   output: {
-    chunkFormat: false,
+    // chunkFormat: false,
   },
 };
