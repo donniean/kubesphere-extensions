@@ -4,7 +4,9 @@
   "private": true,
   "license": "MIT",
   "main": "index.js",
-  "workspaces": ["extensions/*"],
+  "workspaces": [
+    "extensions/*"
+  ],
   "scripts": {
     "build:dll": "ksc build:dll",
     "build:ext": "ksc build:ext",
@@ -15,11 +17,19 @@
     "dev:server": "ksc-server",
     "start": "NODE_ENV=production ksc-server"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "dependencies": {
-    "@ks-console/bootstrap": "^0.0.5",
-    "@ks-console/server": "^0.0.1",
-    "@ks-console/shared": "0.0.4",
+    "@ks-console/appstore": "^4.1.1-canary-20240712061236",
+    "@ks-console/bootstrap": "^4.1.1-canary-20240712061236",
+    "@ks-console/console": "^4.1.1-canary-20240712061236",
+    "@ks-console/core": "^4.1.1-canary-20240712061236",
+    "@ks-console/locales": "^4.1.1-canary-20240712061236",
+    "@ks-console/server": "^4.1.1-canary-20240712061236",
+    "@ks-console/shared": "^4.1.1-canary-20240712061236",
     "@kubed/charts": "^0.0.22",
     "@kubed/code-editor": "^0.0.27",
     "@kubed/components": "^0.2.8",
