@@ -1808,6 +1808,14 @@
   dependencies:
     redux "^4.1.0"
 
+"@kubed/stook@^0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@kubed/stook/-/stook-0.0.4.tgz#7d3a8db1b2bb8e6c8f8ccf09c45dc91f22fd0960"
+  integrity sha512-xAbeN9jhRNvoR+aGVfyUzpl3jK95f6eY4kMxlDU6Qq1JADi5U9x9WcTsWZNbX+AomiN2y2b4uLu0AnIPNnxdAQ==
+  dependencies:
+    immer "^9.0.5"
+    mitt "^3.0.0"
+
 "@leichtgewicht/ip-codec@^2.0.1":
   version "2.0.4"
   resolved "https://registry.yarnpkg.com/@leichtgewicht/ip-codec/-/ip-codec-2.0.4.tgz#b2ac626d6cb9c8718ab459166d4bb405b8ffa78b"
@@ -6507,7 +6515,7 @@ ignore@^5.2.4:
   resolved "https://registry.yarnpkg.com/ignore/-/ignore-5.3.1.tgz#5073e554cd42c5b33b394375f538b8593e34d4ef"
   integrity sha512-5Fytz/IraMjqpwfd34ke28PTVMjZjJG2MPn5t7OE4eUCUNf8BAa7b5WUS9/Qvr6mwOQS7Mk6vdsMno5he+T8Xw==
 
-immer@^9.0.16:
+immer@^9.0.16, immer@^9.0.5:
   version "9.0.21"
   resolved "https://registry.yarnpkg.com/immer/-/immer-9.0.21.tgz#1e025ea31a40f24fb064f1fef23e931496330176"
   integrity sha512-bc4NBHqOqSfRW7POMkHd51LvClaeMXpm8dx0e8oE2GORbq5aRK7Bxl4FyzVLdGtLmvLKL7BTDBG5ACQm4HWjTA==
