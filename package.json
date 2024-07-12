@@ -4,7 +4,9 @@
   "private": true,
   "license": "MIT",
   "main": "index.js",
-  "workspaces": ["extensions/*"],
+  "workspaces": [
+    "extensions/*"
+  ],
   "scripts": {
     "build:dll": "ksc build:dll",
     "build:ext": "ksc build:ext",
@@ -15,15 +17,19 @@
     "dev:server": "ksc-server",
     "start": "NODE_ENV=production ksc-server"
   },
-  "browserslist": ["> 1%", "last 2 versions", "not ie <= 8"],
+  "browserslist": [
+    "> 1%",
+    "last 2 versions",
+    "not ie <= 8"
+  ],
   "dependencies": {
-    "@ks-console/appstore": "^4.1.1-next-20240712041436",
-    "@ks-console/bootstrap": "^4.1.1-next-20240712041436",
-    "@ks-console/console": "^4.1.1-next-20240712041436",
-    "@ks-console/core": "^4.1.1-next-20240712041436",
-    "@ks-console/locales": "^4.1.1-next-20240712041436",
-    "@ks-console/server": "^4.1.1-next-20240712041436",
-    "@ks-console/shared": "^4.1.1-next-20240712041436",
+    "@ks-console/appstore": "^4.1.1-next-20240712045455",
+    "@ks-console/bootstrap": "^4.1.1-next-20240712045455",
+    "@ks-console/console": "^4.1.1-next-20240712045455",
+    "@ks-console/core": "^4.1.1-next-20240712045455",
+    "@ks-console/locales": "^4.1.1-next-20240712045455",
+    "@ks-console/server": "^4.1.1-next-20240712045455",
+    "@ks-console/shared": "^4.1.1-next-20240712045455",
     "@kubed/charts": "^0.0.22",
     "@kubed/code-editor": "^0.0.27",
     "@kubed/components": "^0.2.8",
@@ -118,7 +124,6 @@
     "mitt": "^3.0.0",
     "no-case": "3.0.4",
     "nodemon": "^2.0.7",
-    "path-browserify": "^1.0.1",
     "postcss-loader": "^3.0.0",
     "prettier": "^2.4.1",
     "prop-types": "^15.7.2",
