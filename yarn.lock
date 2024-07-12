@@ -1608,27 +1608,27 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@ks-console/appstore@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-4.1.1-next-20240712045455.tgz#49170c20f654c3a7f3aa857acc75003524d323cc"
-  integrity sha512-yQgGz6vqhiQKAU3kUEmVCJUHhpIpK91F/FpkV8bwRYet+Pd+X/Q/FSRyBO8u/Flw9rWOqH5+6ikU+edymWPr9g==
+"@ks-console/appstore@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-4.1.1-canary-20240712061236.tgz#6502419d593a0ad7b195da82237893bd76ce24c3"
+  integrity sha512-CIrGXMKzvx5qzIcJg7Km3UK3vsOwl+jJiWIsldMxDtxe4ux2uDa/RV/l/NvznZswA0TrlfjHv29+hXSaorDo5A==
   dependencies:
     nanoid "^3.0.0"
 
-"@ks-console/bootstrap@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-4.1.1-next-20240712045455.tgz#3956d3c038ea5b6c628fda0619c627414387fc6a"
-  integrity sha512-p1Ev8nlsMzi92lfptdjBGVCoKKuGburxau16W2PL5QxbNvKfpPj9ckqlZEW0ruW0fkjPFyC/aUwo6/HjGz9Tpg==
+"@ks-console/bootstrap@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-4.1.1-canary-20240712061236.tgz#57c6e4ddda6a6a7acb83650830a59c35e0a0cfef"
+  integrity sha512-31v4GaRKeRePLItxPyIebROlrYoLALKlNNLW/WqW1ik0PtygqtzmuN0hdjR1PjEfr5TZccW1REpquaZ0x9HkhA==
   dependencies:
-    "@ks-console/locales" "4.1.1-next-20240712045455"
+    "@ks-console/locales" "4.1.1-canary-20240712061236"
     mustache "^4.2.0"
     npm-checky "^1.0.4"
     path-browserify "^1.0.1"
 
-"@ks-console/console@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-4.1.1-next-20240712045455.tgz#d4a92e87268268d51aab9943276fa3e94aa73967"
-  integrity sha512-1kupn7lmPNNv2FsRrFYSyE3MR6IgF0vKFYXD1HJVW/5pR7h4K+t+m2Qmuyj/TMLfNYSbIABs9gur6AiHWeT4rw==
+"@ks-console/console@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-4.1.1-canary-20240712061236.tgz#110763e71ce9e01c1f3fb409ed605be8e9179a37"
+  integrity sha512-S08AK8mOPKJAozZMPNrjfakyvDKln0Fmr9fNklDo3/b61mm498cG1IW1NApAOqvb/TUvdgTe8Vlz2flOqArp+w==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/sortable" "^8.0.0"
@@ -1644,10 +1644,10 @@
     react-textarea-autosize "^8.3.2"
     wujie-react "^1.0.6"
 
-"@ks-console/core@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/core/-/core-4.1.1-next-20240712045455.tgz#a10997a8ef92ad2eda9c85eb267a06eeced13709"
-  integrity sha512-auFhe9tXuZFXKHXbpfvGNBEcUFQnvxXFQwvXbsftSlGB16q81h5G1iEvXZujH8deaJ4Z8fMqQ50g7BLSNjMExg==
+"@ks-console/core@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/core/-/core-4.1.1-canary-20240712061236.tgz#da01a3a42682cf1b644e9b6d7e2744eab78c8f20"
+  integrity sha512-9daW8sq+ZZ84t+AYRppQY4z4d97LpockbFWi4gUmdW0U7GHGBpGdlaZklJdGnnRTHAvwkVWpZ2sdUmHrwUoM4A==
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     clean-deep "^3.4.0"
@@ -1664,15 +1664,15 @@
     type-fest "^4.13.1"
     wujie-react "^1.0.6"
 
-"@ks-console/locales@4.1.1-next-20240712045455", "@ks-console/locales@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/locales/-/locales-4.1.1-next-20240712045455.tgz#64a279e02ee8c5db1dea2ccf0fca5ce1a36407e3"
-  integrity sha512-y0By8PdydxPrY+SoD8isgyN52wBoIwjsxG2zYK0MjvoBBQyOjDss5dCiIcMGOSlHfoIPoaNbFFNvg/wn6ru9pA==
+"@ks-console/locales@4.1.1-canary-20240712061236", "@ks-console/locales@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/locales/-/locales-4.1.1-canary-20240712061236.tgz#2c9b1e4d2922e6d9061bbf8e23afe4b81fcd2086"
+  integrity sha512-mp6dUhzfFAxf09fN93QvJ5SR8t4XZHSVwBVodbmtyZnwszt/r7uhaFJLOsO1SRYO9UCBE7YTrWAeA2GYLytzAA==
 
-"@ks-console/server@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/server/-/server-4.1.1-next-20240712045455.tgz#8f83b1bd9d8573566f7e9cd47fa20b072a88c53e"
-  integrity sha512-5LwU8kr1djFTyClXnQEGXeVCeF4X24HjbMBIq4OLX+2owhnoQ1wMWpbYmk/jnMF//xNM3mM0u1oXyf7TlpGnqQ==
+"@ks-console/server@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/server/-/server-4.1.1-canary-20240712061236.tgz#79fe1e9e504d59d69c96f098420e4108f97f871f"
+  integrity sha512-r3kDyJ2hOG4DWz0G47URXJUirwvFoXJUVCiWOO4jCbP+XHKG2+TKeiR9zoP4Zb69l+m/Z9k2gKns32mCa+yrew==
   dependencies:
     compression "^1.7.4"
     dayjs "^1.10.7"
@@ -1698,10 +1698,10 @@
     path-to-regexp "^2.2.1"
     stream-array "^1.1.2"
 
-"@ks-console/shared@^4.1.1-next-20240712045455":
-  version "4.1.1-next-20240712045455"
-  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-4.1.1-next-20240712045455.tgz#d0309262135facb17864594631d565e42c5358c2"
-  integrity sha512-o980kGDllpD2RoSlfMdphpx2c08F+3rvITXA2HPRM494B/Cb6eVg82KPWLu9NhxjXx5GDKQbcs7sH7u2YIuINw==
+"@ks-console/shared@^4.1.1-canary-20240712061236":
+  version "4.1.1-canary-20240712061236"
+  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-4.1.1-canary-20240712061236.tgz#56657e683d3c78cd53eb7ef29728f619b2958a1e"
+  integrity sha512-sAuyqnjFK/1P/y+wM9ZSPIzhdQCY0eEi4qyAZhzKVPrphE05osFgCZQX2Zc+FwASkX24weJWwUlNIl+kxROfQw==
   dependencies:
     "@kubed/stook" "^0.0.4"
     async-validator "4.2.5"
