@@ -1608,26 +1608,26 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@ks-console/appstore@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-4.1.1-next-20240712034628.tgz#3054fb6403bb1efefa036973ba72b7ce8f941eb1"
-  integrity sha512-keJKkef26cRyXO808wc30THpOop0B9fsoYaxcXNGjdH2ID/W7GRIISzBPQsJGJFwJKGTiikCr/f0Fug8kHZq6w==
+"@ks-console/appstore@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-4.1.1-next-20240712041436.tgz#672cdf24b2603e1c2629aea27349c8af6e2da39b"
+  integrity sha512-zVaakhHb11+llYsq+ronf9o97c0E1ZI0wsjqlLyyrxND0fBxsIYONJPXMvWgJBbsrq8tHxZB7UINoaEK1LGIgw==
   dependencies:
     nanoid "^3.0.0"
 
-"@ks-console/bootstrap@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-4.1.1-next-20240712034628.tgz#1ee38b4aa116990e45436dbd65ad0d88cbea24d4"
-  integrity sha512-uhiYVTpmeVQlxozcvku5zLf0iEkzVV/WjnKgQuRmfLizX99Ao/S0TQDaQzQkqQSTfra4EiayvF7nJPSn5Bprpg==
+"@ks-console/bootstrap@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-4.1.1-next-20240712041436.tgz#0088c095bad4688a8142af1580ef0f39f49954f1"
+  integrity sha512-jmY/cj18OTJxhZ4dmTY8eDwPTDQj2PI4lsilWZJfYXMwhHuiUu6IUQ7ygXwbySS96jphzthQ/mk1AX1U0zaXrw==
   dependencies:
-    "@ks-console/locales" "4.1.1-next-20240712034628"
+    "@ks-console/locales" "4.1.1-next-20240712041436"
     mustache "^4.2.0"
     npm-checky "^1.0.4"
 
-"@ks-console/console@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-4.1.1-next-20240712034628.tgz#c477120ab4f8f9c538924301413aa9c6346fefdc"
-  integrity sha512-AhKZ72R/3ZQV4hHfOS6plUaGvZd07hJHiTIPDHi71/9qPrseJNZucvi0cxcN8eRASYDozM9BfdOtU7Agm3nkBA==
+"@ks-console/console@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-4.1.1-next-20240712041436.tgz#c53fb06093a527cf45522c0552a91e74115060ef"
+  integrity sha512-l7WfPhG3iIJzrwjAENsIJd7MUm7r+vdKz114RMFoOSuwYUg4kpC9x5CP1McfGy/EBQrqDky8OQ6w9+PHx02cJQ==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/sortable" "^8.0.0"
@@ -1643,10 +1643,10 @@
     react-textarea-autosize "^8.3.2"
     wujie-react "^1.0.6"
 
-"@ks-console/core@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/core/-/core-4.1.1-next-20240712034628.tgz#44b0cf852350e879bf6fa663a96e1f46021cc5fb"
-  integrity sha512-F4DvV+YQVLLGl8HvB1vJpzhQ9pozAsac2zmnRJi7PYB+tH51ngwlIdPOh3GvbzvjzfvUPYGePPb9TWT53OH6dg==
+"@ks-console/core@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/core/-/core-4.1.1-next-20240712041436.tgz#c5421996931ac248e091d9d5a2fbc6900883fa53"
+  integrity sha512-DYd1L5ZphKnS9lx1swY678cE4Ny6NdCqt3MrSX7MhpzkFBQZiA29ENpRK8aX9SZ6jM/A2JB/1P9zWIzQN0ioVQ==
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     clean-deep "^3.4.0"
@@ -1663,15 +1663,15 @@
     type-fest "^4.13.1"
     wujie-react "^1.0.6"
 
-"@ks-console/locales@4.1.1-next-20240712034628", "@ks-console/locales@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/locales/-/locales-4.1.1-next-20240712034628.tgz#1a1b04368629f7aa9f2aa6710d57c5fcefb03afb"
-  integrity sha512-VhbTV7+rbcs5/FW7xVj9bZ1WRo65G1hia80BQoeiOWV17BS0gQB374VRaknZkUBLutG801jen9HvRgQKHKcXHw==
+"@ks-console/locales@4.1.1-next-20240712041436", "@ks-console/locales@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/locales/-/locales-4.1.1-next-20240712041436.tgz#bfc49301b31e8c3dbf22a095ca5e3546d85ff74c"
+  integrity sha512-eodhLP9efi+x2VwVFU8sblJrWsWNf7FGHuOBib6+Qm1PyGtPXtAJAfjBscIWgNC3YLT28Ls798cCt0OHJcVCBw==
 
-"@ks-console/server@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/server/-/server-4.1.1-next-20240712034628.tgz#1733f4f55eda8a46510ee84ac7ae6de6a91088e0"
-  integrity sha512-apu5Pdlxey1k/7kHcCkJMiblUy2KE625Oydx+5cYFCh1+MQmZFpS3l3dcq2UMWVtdydddFKRMVroAtlqLEjMVg==
+"@ks-console/server@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/server/-/server-4.1.1-next-20240712041436.tgz#f30f6b28549ba2e16acbe5d8a74a8a3c884209b3"
+  integrity sha512-+k0psHYxZrlUQKwoR7plC8AM24Mq9WeMX1jivvWc60/iruOivUjICK/Whm1cs+o0dDkQ6y5DrURNAZw0Wbo20Q==
   dependencies:
     compression "^1.7.4"
     dayjs "^1.10.7"
@@ -1697,10 +1697,10 @@
     path-to-regexp "^2.2.1"
     stream-array "^1.1.2"
 
-"@ks-console/shared@^4.1.1-next-20240712034628":
-  version "4.1.1-next-20240712034628"
-  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-4.1.1-next-20240712034628.tgz#a3be69c021f12afcfeebb08912cbdef0850aba38"
-  integrity sha512-ie6Dt0Hf5gSkaBD2CgV1/Ca2GbOdK0Xx7Ae3QQg1lcBMidxm67kjnSuQaXS9RoDl/9/dQv9fMvm3DALI8/QP5g==
+"@ks-console/shared@^4.1.1-next-20240712041436":
+  version "4.1.1-next-20240712041436"
+  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-4.1.1-next-20240712041436.tgz#456d8558af28d49d7a5076a1726d47dc27f9a2bd"
+  integrity sha512-ZTZOrr23A6ig3lg+muqTeKsbq4BDZG6UtTj+rJODjL++xwMVHPak/P9/razoCJlexfkw/7nNIoD6pE+j45hyIQ==
   dependencies:
     "@kubed/stook" "^0.0.4"
     async-validator "4.2.5"
