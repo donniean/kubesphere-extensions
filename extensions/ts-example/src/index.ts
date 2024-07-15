@@ -1,7 +1,7 @@
 import routes from './routes';
 import locales from './locales';
 
-const menu = {
+const menus = {
   parent: 'topbar',
   name: 'ts-example',
   title: 'TypeScript Example',
@@ -13,17 +13,8 @@ const menu = {
 
 const extensionConfig = {
   routes,
-  menus: [menu],
+  menus,
   locales,
-  isCheckLicense: true,
 };
 
-// globals.context.registerExtension(extensionConfig);
-
-export default () => {
-  return new Promise(resolve => {
-    window.setTimeout(() => {
-      resolve(extensionConfig);
-    }, 200);
-  });
-};
+export default extensionConfig;

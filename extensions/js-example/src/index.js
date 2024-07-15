@@ -1,7 +1,7 @@
 import routes from './routes';
 import locales from './locales';
 
-const menu = {
+const menus = {
   parent: 'topbar',
   name: 'js-example',
   title: 'JavaScript Example',
@@ -13,7 +13,7 @@ const menu = {
 
 const extensionConfig = {
   routes,
-  menus: [menu],
+  menus,
   locales,
 };
 
