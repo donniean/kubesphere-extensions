@@ -1,6 +1,7 @@
 {
   "name": "ts-example",
   "version": "1.0.0",
+  "private": true,
   "description": "Hello ts-example",
   "homepage": "",
   "author": "",
