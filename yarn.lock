@@ -1480,26 +1480,27 @@
     "@jridgewell/resolve-uri" "^3.1.0"
     "@jridgewell/sourcemap-codec" "^1.4.14"
 
-"@ks-console/appstore@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-4.1.0.tgz#2f72e01e07313a2c784d7034a4e5bb32b47a3a98"
-  integrity sha512-pwS2gHR0zNZfxK7kGPIxtfcrMGVJwq+a7SjT7UeoBhphSTalfLpGnb5XXVSLxYC/hYgVGwyQlaEJ5TX8MEivgA==
+"@ks-console/appstore@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/appstore/-/appstore-4.1.1.tgz#34ef9a65b9de9deef3bdf24f843e5489d879673b"
+  integrity sha512-MBLREPbRJEMGLBXzK49JKRfaPZUiv6m/eM2rlwFgfT64ubX2i/8pwtAvS71oGy55tb1I74fSqW8dywFlPvIzcQ==
   dependencies:
     nanoid "^3.0.0"
 
-"@ks-console/bootstrap@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-4.1.0.tgz#29a2662e8a7b392264935b974c9dfb7540a739c6"
-  integrity sha512-yEdHD70XYtSF9H1SD0d4e53xFJptpNYsu0q04bRPKXjFS11+KHg8kDh8Uoeb7dPO/upuCVtVxDK9hNcq7yIPDQ==
+"@ks-console/bootstrap@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/bootstrap/-/bootstrap-4.1.1.tgz#5d296c147026873abb4f6cbee7286acb06cda5db"
+  integrity sha512-He+l4MrkqGzISxQ7e5z6ASAcPaSH3DBaRCqS2F++GcafxtN2XOiu82dOXDfiZ8/Rf97lr24F/aNNF9Iw+WhDdA==
   dependencies:
-    "@ks-console/locales" "^4.1.0"
+    "@ks-console/locales" "^4.1.1"
     mustache "^4.2.0"
     npm-checky "^1.0.4"
+    path-browserify "^1.0.1"
 
-"@ks-console/console@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-4.1.0.tgz#678b6d4840d2f6e3917e00dcc6e55b8453fb138c"
-  integrity sha512-vc/sFi1JiROF0giZYlLafIHBoIMgmn9K6PF14xmQ6VmS6NiWczLCBBzwSKoJjpcAtdtiPhRpxdL8tG5vYn13OA==
+"@ks-console/console@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/console/-/console-4.1.1.tgz#5e0a0147224fe0e0b94383341a43498a80aa5ffc"
+  integrity sha512-9XTXMwIl7rMkJ/YQMpft3Dx6uxe10KD9zKYU87VnX3sd6TTCYAwI9JTr4hO9ZeeGlH+iDLmPlh48cEj7sPpwxA==
   dependencies:
     "@dnd-kit/core" "^6.1.0"
     "@dnd-kit/sortable" "^8.0.0"
@@ -1515,10 +1516,10 @@
     react-textarea-autosize "^8.3.2"
     wujie-react "^1.0.6"
 
-"@ks-console/core@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/core/-/core-4.1.0.tgz#d7b442a01d0bb8bbd0b8a7dc81427dc4ab91edf0"
-  integrity sha512-6gi6RDKKldEgGf/dRqLbvKFr/hBo62o1mhVpqGMxOlWjm5Sw7ZCh3LVYmlSROF8qd3kOk1fPl2is3l/Pb0eomw==
+"@ks-console/core@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/core/-/core-4.1.1.tgz#e619b4f18638d5456677109d0f89225067f3bc99"
+  integrity sha512-f6K8ZCK1CM2f6aDvw8VGwcLyA+kelynU9PswKRUpl2hJYA+5i0mZtm/4kXJ0jkq/tnbyvY7JlZszT6kn4ywW3w==
   dependencies:
     "@jridgewell/resolve-uri" "^3.1.0"
     clean-deep "^3.4.0"
@@ -1535,15 +1536,15 @@
     type-fest "^4.13.1"
     wujie-react "^1.0.6"
 
-"@ks-console/locales@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/locales/-/locales-4.1.0.tgz#a025c08cf3f838b18f044acfd33cdbe55987f575"
-  integrity sha512-GiuqdDSzeql86yLOITKUPoaTNbz5ib2ImC2s6xgKDpeMyaR7Cvh9AfKdlYcDmNapUCbQ57W/OxxRZa35nK4pTA==
+"@ks-console/locales@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/locales/-/locales-4.1.1.tgz#e8acb936b4be50694fd6b48365185de5ea1e1a7f"
+  integrity sha512-oC1C4Ocb3n7c6ijCuCyFV/D04jbxawHGN3tu2TeBpYF5hL2c7L4PzKk5upXNiYocGQtqQUU/JYSCD9inEOf4UA==
 
-"@ks-console/server@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/server/-/server-4.1.0.tgz#43874ea94c3007cfab25a75191c8bf3068ff8e84"
-  integrity sha512-ZPgzH3ZZkv25QOkZ6D0apelrorMqsaPzvF7wP7U4qiq2I3CXCHsJDBFWKIM4Ge80UdZdVicDO/jeUKLVwx3MQA==
+"@ks-console/server@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/server/-/server-4.1.1.tgz#7650f3915d2ba235d8a6a461cfd2c5d103cfc587"
+  integrity sha512-/zh/qJpFrqP8DF90OFeFd7xlWgZ6k+rfWu6IxA5zUpZTxGtw/8RSf3nCYsZaXznNiYXN6HZjSrFPBETtapPrMQ==
   dependencies:
     compression "^1.7.4"
     dayjs "^1.10.7"
@@ -1569,10 +1570,10 @@
     path-to-regexp "^2.2.1"
     stream-array "^1.1.2"
 
-"@ks-console/shared@^4.1.0":
-  version "4.1.0"
-  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-4.1.0.tgz#8805941360b572eb4ab068db6f5285a619b1709c"
-  integrity sha512-N3FBdAJrueFTiP5RbHcXPmxx00oKra2vLa70EDAIGx/ZkYPoOeG+d/89VZ50LAnw3jhru34FHi3sIfGLnV/+zQ==
+"@ks-console/shared@^4.1.1":
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/@ks-console/shared/-/shared-4.1.1.tgz#a44650bc215ca26daef1569e8b7ad9aee174c26d"
+  integrity sha512-e4EgDpTN0oeuwjh7j0J7skhypTjRhUG9GX6GtpbJTT4KcwrYeC13ksU6tSlL5Q5pg82CVPgVVp9/w5tb4DBZMw==
   dependencies:
     "@kubed/stook" "^0.0.4"
     async-validator "4.2.5"
@@ -9140,6 +9141,11 @@ passthrough-counter@^1.0.0:
   version "1.0.0"
   resolved "https://registry.yarnpkg.com/passthrough-counter/-/passthrough-counter-1.0.0.tgz#1967d9e66da572b5c023c787db112a387ab166fa"
   integrity sha512-Wy8PXTLqPAN0oEgBrlnsXPMww3SYJ44tQ8aVrGAI4h4JZYCS0oYqsPqtPR8OhJpv6qFbpbB7XAn0liKV7EXubA==
+
+path-browserify@^1.0.1:
+  version "1.0.1"
+  resolved "https://registry.yarnpkg.com/path-browserify/-/path-browserify-1.0.1.tgz#d98454a9c3753d5790860f16f68867b9e46be1fd"
+  integrity sha512-b7uo2UCUOYZcnF/3ID0lulOJi/bafxa1xPe7ZPsammBSpjSWQkjNxlt635YGS2MiR9GjvuXCtz2emr3jbsz98g==
 
 path-exists@^3.0.0:
   version "3.0.0"
