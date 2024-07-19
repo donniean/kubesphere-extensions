@@ -1,3 +1,5 @@
-node_modules
+**/node_modules/
+**/dist/
+**/v3dist/
 yarn.lock
 package-lock.json
