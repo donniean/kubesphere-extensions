@@ -12,7 +12,7 @@
     "build:ext": "ksc build:ext",
     "create:ext": "ksc create:ext",
     "dev": "concurrently -k --raw 'yarn dev:client' 'yarn dev:server'",
-    "dev:client": "ksc dev -u true",
+    "dev:client": "ksc dev -u false",
     "dev:server": "ksc-server"
   },
   "browserslist": [
