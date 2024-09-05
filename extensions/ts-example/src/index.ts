@@ -3,7 +3,7 @@ import locales from './locales';
 
 const menus = [
   {
-    parent: 'topbar',
+    parent: 'global',
     name: 'ts-example',
     title: 'TypeScript Example',
     icon: 'cluster',
