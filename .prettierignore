@@ -4,5 +4,6 @@
 **/dist/
 **/v3dist/
 **/*.tsbuildinfo
+**/templates/*.yaml
 yarn.lock
 package-lock.json
